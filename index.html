@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script> 
+</head>
+<style>
+    .carousel-item img{
+      height: 100%;
+      width: 100%;
+    }
+    .carousel-item{
+      height: 100%;
+      
+    }
+  </style>
+<body>
+    <div>
+        <nav class="navbar fixed-top navbar-expand-lg " style="background-color: blue;">
+            <!-- <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> -->
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="./images/flipkart.svg" width="70px" height="70px" alt="flipkart Logo">
+
+                </a>
+
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                href="#">Clothing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                    href="#">Electronics </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                    href="#">Health&Beauty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                    href="#">Watches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                    href="#">Jewllery</a>
+                            </li>     
+                            <!-- <li class="nav-item">
+                                <a class="nav-link active" style="color: aliceblue; size: 10px; " aria-current="page"
+                                    href="#">Kids&Girls</a>
+                            </li>            -->
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search for Products,Electronics" aria-label="Search">
+                                <button class="btn-outline-light" type="submit">search </button>
+                              </form>
+                        </ul>
+
+                        <a class="navbar-brand" href="">
+                            <img src="./images/cart.svg" width="25px" height="30px"  alt="Bootstrap Logo">
+                            
+    
+                        </a>
+                        <a class="navbar-brand" href="">
+                            <img src="./images/user.svg" width="25px" height="30px" alt="Bootstrap Logo">
+    
+                        </a>
+                        <a class="navbar-brand" href="">
+                            <img src="./images/location.svg" width="25px" height="30px" alt="Bootstrap Logo">
+    
+                        </a>
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-outline-light" style="width: 200px; height: 50px;"
+                                type="submit">LOG IN/SIGN UP</button>
+                        </form>
+                        
+                        </li>           
+                        
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active"  data-bs-interval="2000">
+                <img src="./images/1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="">Sale Price</label>
+              </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="">Sale Price</label>
+              </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="">Sale Price</label>
+              </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/21.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="">Sale Price</label>
+              </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/7.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="">Sale Price</label>
+              </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/8.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="">Sale Price</label>
+              </div>
+              </div>
+              
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="container">
+                <div class="row mt-3">
+                  <!-- 12 column -->
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/22.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SAMSUNG</h5>
+                  <p class="card-text">PRICE:44999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/11.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 12</h5>
+                  <p class="card-text">PRICE:49999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/16.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 13</h5>
+                  <p class="card-text">PRICE:63999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/14.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 14</h5>
+                  <p class="card-text">PRICE:70999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/15.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 14</h5>
+                  <p class="card-text">PRICE:70999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/16.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 13</h5>
+                  <p class="card-text">PRICE:69999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/14.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 14</h5>
+                  <p class="card-text">PRICE:70999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              <div class="col-3"><div class="card text-center" style="width: 15rem;">
+                <img src="./images/17.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">I PHONE 15</h5>
+                  <p class="card-text">PRICE:100999</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div></div>
+              </div>
+
+              <div class="card text-center mt-4">
+                <div class="card-header">
+                    ABOUT
+                    Contact Us
+                    About Us
+                    Careers
+                    Flipkart Stories
+                    Press
+                    Flipkart Wholesale
+                    Cleartrip
+                    Corporate Information
+                    HELP
+                    Payments
+                    Shipping
+                    Cancellation & Returns
+                    FAQ
+                    Report Infringement
+                    CONSUMER POLICY
+                    Cancellation & Returns
+                    Terms Of Use
+                    Security
+                    Privacy
+                    Sitemap
+                    Grievance Redressal
+                    EPR Compliance
+                    SOCIAL
+                    Facebook
+                    Twitter
+                    YouTube
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">© 2007-2023 Flipkart.com</h5>
+                  
+                  <a="href"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
+                  <a="href"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg></a>
+                  <a="href"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg></a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    Mail Us:
+                    Flipkart Internet Private Limited,
+                    
+                    Buildings Alyssa, Begonia &
+                    
+                    Clove Embassy Tech Village,
+                    
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    
+                    Bengaluru, 560103,
+                    
+                    Karnataka, India
+                    
+                    Registered Office Address:
+                    Flipkart Internet Private Limited,
+                    
+                    Buildings Alyssa, Begonia &
+                    
+                    Clove Embassy Tech Village,
+                    
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    
+                    Bengaluru, 560103,
+                    
+                    Karnataka, India
+                    
+                    CIN : U51109KA2012PTC066107
+                    
+                    Telephone: 044-45614700
+                </div>
+              </div>
+    
+    
+    
+    
+</body>
+</html>
